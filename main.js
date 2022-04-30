@@ -39,35 +39,4 @@ window.addEventListener("scroll", function () {
   header.classList.toggle("sticky", window.scrollY > 0);
 });
 
-// document.querySelector(".test-btn").addEventListener("click", loadText);
 
-// function loadText() {
-//   const xhr = new XMLHttpRequest();
-
-//   xhr.open("GET", ``, true);
-
-//   xhr.onload = function () {
-//     if (this.status === 200) {
-//       console.log("123");
-//     }
-//   };
-//   xhr.send();
-// }
-
-// const formInput = document.getElementByClassName("form-input");
-// const formMessage = document.querySelector(".formMessage");
-// const formBtn = document.querySelector(".formBtn");
-
-// formBtn.addEventListener("click", validateInput);
-
-// function validateInput(e) {
-//   let output = "";
-//   formInput.forEach(function () {
-//     if (formInput.value === "") {
-//       formInput.style.borderColor = "#ce1678";
-//       output = `<h3>Please fill in the form correctly</h3>`;
-//       formMessage.innerHTML = output;
-//     }
-//     e.preventDefault();
-//   });
-// }
